@@ -1,0 +1,12 @@
+{% block body %}
+
+{% if session['logged_in'] %}
+<p>Logged in as: {{session['username']}}</p>
+{% else %}
+<form action="/login" method="POST">
+  <input type="username" name="username" placeholder="Username">
+  <input type="submit" value="Log in">
+</form>
+{% endif %}
+
+{% endblock %}

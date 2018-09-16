@@ -1,0 +1,9 @@
+{% block body %}
+
+<p>Logged in as: {{session['username']}}</p>
+<p><a href='/random'>Random</a></p>
+<p><a href='/history'>History</a></p>
+<p><a href='/logout'>Logout</a></p>
+<p>Your random number = {{number}}</p>
+
+{% endblock %}
