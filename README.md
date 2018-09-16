@@ -4,19 +4,20 @@
 
 # Start server:
 $ export FLASK_APP=main.py
+
 $ flask run
 
 # tableuserdef.py
-# creates users.db database
+creates users.db database
 
 # tablehistorydef.py
-# creates history.db database
+creates history.db database
 
 # /login
-# login or register user
+login or register user
 
 # /random
-# get random int number and store it to history
+get random int number and store it to history
 
 # /history
-# get history of numbers given to current user
+get history of numbers given to current user
